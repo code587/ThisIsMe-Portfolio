@@ -1,0 +1,15 @@
+.navbar {
+    background: linear-gradient(to bottom, #cc6699 0%, #33cc33 100%);
+    height: 80px;
+    font-weight: 500;
+    
+  }
+  
+  .navbar a {
+    color: black;
+    font-size: 23px;
+    margin: 5px;
+    margin-top: 30px;
+    
+    
+  }
