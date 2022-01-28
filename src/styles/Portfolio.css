@@ -3,14 +3,18 @@ h1 {
     margin-bottom: 25px;
     margin-left: 47px;
 }
-.project1 {
+.date {
     margin-left: 47px;
 }
-.project2 {
+.notes {
     margin-left: 500px;
     padding-top: 40px;
 }
-.project3 {
+.workTeam {
     margin-left: 47px;
+    padding-top: 40px;
+}
+.quiz {
+    margin-left: 500px;
     padding-top: 40px;
 }

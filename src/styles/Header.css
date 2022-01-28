@@ -10,6 +10,9 @@
     font-style: italic;
   }
   .header h2 {
-    text-align: center;
+    text-align: left;
     font-size: 25px;
+    line-height: 0rem;
+    margin-left: 80px;
+   
   }
