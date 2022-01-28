@@ -1,8 +1,12 @@
 .section {
-    background: #f3e5f5;
+    background: none;
   }
   
 .section h2 {
-    text-align: center;
+    text-align: start;
+    margin-top: 1px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    
   }
   

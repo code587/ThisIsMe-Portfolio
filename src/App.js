@@ -3,15 +3,16 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Section from "./components/Section";
-
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
-    <div>
+    <main>
       <Header />
       <Navbar />
       <Section />
-    </div>
+      <Portfolio />
+    </main>
   );
 }
 
