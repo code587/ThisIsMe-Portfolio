@@ -9,7 +9,9 @@
     color: black;
     font-size: 23px;
     margin: 5px;
-    margin-top: 30px;
+    margin-top: 30px;    
     
-    
+  }
+  .navbar a:hover {
+    background-color: white;
   }

@@ -10,7 +10,7 @@ const styles = {
 function Navbar() {
     return (
     <nav style={styles.navbarStyle} className="navbar">
-        <a href="/">About Me</a>
+        <a href="/">AboutMe</a>
         <a href="/">Portfolio</a>
         <a href="/">Contact</a>
         <a href="/">Resume</a>
