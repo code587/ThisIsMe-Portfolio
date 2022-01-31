@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../styles/Resume.css';
+import '../styles/Resume.css';
+// import resume from '../Images/Stephanie Sanders_ Resume.docx.pdf';
 
 
 function Resume() {

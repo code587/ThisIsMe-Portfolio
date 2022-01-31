@@ -10,11 +10,13 @@ const styles = {
   
   function Header() {
     return (
-      <header style={styles.headerStyle} className="header">
-        <h1 style={styles.headingStyle}>Stephanie Sanders</h1>
-        <img className="pic" src={profilePic} alt= 'profile avatar'/>
+    <header style={styles.headerStyle} className="header">
+        <div className='picContainer'>
+          <img className="pic" src={profilePic} alt= 'profile avatar'/>
+          <h1 style={styles.headingStyle}>Stephanie Sanders</h1>
         <h3>Nice to meet you. THIS IS ME!</h3>
-      </header>
+        </div>
+    </header>
     );
   }
   

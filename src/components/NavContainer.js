@@ -6,7 +6,7 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
 export default function NavContainer() {
-    const [currentPage, setCurrentPage] = useState('AboutMe');
+    const [currentPage, setCurrentPage] = useState('');
   
     // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
     const renderPage = () => {
@@ -22,11 +22,11 @@ export default function NavContainer() {
       else if (currentPage === 'Resume') {
         return <Resume />;
       }
-      return <AboutMe />;
+      // return <AboutMe />;
     };
   
     const handlePageChange = (page) => setCurrentPage(page);
-  
+    console.log({currentPage});
     return (
       <div>
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />

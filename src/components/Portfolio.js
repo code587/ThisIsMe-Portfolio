@@ -11,21 +11,23 @@ function Portfolio() {
     <div>
     <h1>Portfolio</h1>
         <div className='date'>
-            <img src={coupledining} alt= 'couple dining'/>
-            <a id='gitlink1' href='https://github.com/code587/Urban-Disco-Burrito'>
+            <img src={coupledining} alt= 'couple dining' />
+            <a className='gitlink1' href='https://github.com/code587/Urban-Disco-Burrito'> 
             </a>
         </div>
         <div className='notes'>
         <img src={notepad} alt= "note pad"/>
-        <a id="gitlink2" href="https://github.com/code587/NoteforNoteTaker"></a>
+        <button className='btn'>Button</button>
+        <a className="gitlink2" href="https://github.com/code587/NoteforNoteTaker"></a>
         </div>
+
         <div className='workTeam'>
         <img src={companyteam} alt= "silouhette of work team"/>
-        <a id="gitlink3" href="https://github.com/code587/WorkSquad-ProfileGenerator"></a>
+        <a className="gitlink3" href="https://github.com/code587/WorkSquad-ProfileGenerator"></a>
         </div>
         <div className='quiz'>
         <img src={quiz} alt= "supernatural actors"/>
-        <a id="gitlink4" href="https://github.com/code587/Quiz-supernatural-challenge"></a>
+        <a className="gitlink4" href="https://github.com/code587/Quiz-supernatural-challenge"></a>
         </div>
     </div>
     )

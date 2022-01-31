@@ -1,20 +1,133 @@
 h1 {
     font-size: 25px;
     margin-bottom: 25px;
-    margin-left: 47px;
+    margin-left: 10px;
 }
+
 .date {
-    margin-left: 47px;
+    position: absolute;
+    top: 56%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: blanchedalmond;
+    width: 180px;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 6px 5px dimgrey ;
 }
-.notes {
-    margin-left: 500px;
-    padding-top: 40px;
+.dinner {
+    background-color: tomato;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.note {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: violet;
+    width: 180px;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 6px 5px palevioletred;
+    margin-left: 400px;
+    
+}
+.journal {
+    background-color: white;
+    margin-left: 0px;
+    font-weight: bold;
+    
 }
 .workTeam {
-    margin-left: 47px;
-    padding-top: 40px;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    width: 180px;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 6px 5px gray;
+    margin-left: 200px;
+}
+.team {
+    background-color: white;
+    margin-left: 0px;
+    font-weight: bold;
 }
 .quiz {
-    margin-left: 500px;
-    padding-top: 40px;
+    position: absolute;
+    top: 78%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: lightcoral;
+    width: 180px;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 6px 5px chocolate;
+}
+.spnquiz {
+   background-color: greenyellow;
+   margin-left: 10px;
+   font-weight: bold;
+}
+.ecommerce {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: turquoise;
+    width: 180px;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 6px 5px dimgrey ;
+}
+.commdb {
+    background-color: royalblue;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.generator {
+    position: absolute;
+    bottom: -5%;
+    right: 2%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: gold;
+    width: 200px;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 6px 5px grey;
+    
+}
+.readgenerator {
+    background-color: white;
+    margin-left: -150px;
+    margin-top: 50px;
+    font-weight: bold;
 }

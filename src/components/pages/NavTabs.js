@@ -1,8 +1,15 @@
 import React from 'react';
 
+const styles = {
+  navbarStyle: {
+    justifyContent: 'center',
+  },
+};
+
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-      <ul className='nav nav-tabs'>
+      <nav style={styles.navbarStyle} className="navbar">
+      <ul className='nav nav-tabs' style={{display: 'flex', alignItems:'center'}}>
         <li className='nav-item'>
           <a
             href='#aboutMe'
@@ -15,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <li className='nav-item'>
           <a
             href='#portfolio'
-            onClick={() => handlePageChange('Portfolio')}
+            onClick={(e) => {e.preventDefault();handlePageChange('Portfolio')}}
             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
           >
             Portfolio
@@ -40,6 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
+      </nav>
     );
   }
   
