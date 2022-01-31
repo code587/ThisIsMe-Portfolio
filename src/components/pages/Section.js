@@ -11,7 +11,7 @@ const styles = {
   function Section() {
     return (
     <section style={styles.sectionStyles} className="section">
-        <h2>About Me</h2>
+        <h1 className='me'>About Me</h1>
         <p>
             I am working to become a full stack web developer.  Gaining familiarity with CSS, Javascript, jQuery, and Bootstrap. You may see my projects by clicking on the Projects button above or scrolling down.
         </p>
