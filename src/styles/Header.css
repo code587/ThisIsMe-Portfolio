@@ -21,12 +21,11 @@
 }
   
   .header h1 {
-    /* margin-top:auto; */
     text-align: center;
     color: red;
     font-style: italic;
     display: inline-flex;
-    margin-left: 270px;
+    /* margin-left: 270px; */
     transform: translateY(-100px);
   }
   .header h3 {

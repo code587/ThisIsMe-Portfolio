@@ -22,7 +22,7 @@ export default function NavContainer() {
       else if (currentPage === 'Resume') {
         return <Resume />;
       }
-      // return <AboutMe />;
+      return <AboutMe />;
     };
   
     const handlePageChange = (page) => setCurrentPage(page);

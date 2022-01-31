@@ -4,7 +4,11 @@ h1 {
 }
 .resume {
     font-size: 30px;
-    margin-left: 550px;
-    
-  
+    margin-left: 610px;
+}
+.skillscontainer {
+    margin-left: 40px;
+}
+.skills {
+    margin-left: 40px;
 }
