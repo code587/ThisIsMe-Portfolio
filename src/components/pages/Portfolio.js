@@ -1,3 +1,4 @@
+//importing all of the images 
 import React from 'react';
 import coupledining from '../Images/coupledining.jpeg';
 import notepad from '../Images/notepad.jpeg';

@@ -5,7 +5,7 @@ const styles = {
     justifyContent: 'center',
   },
 };
-
+//function to bring in a page when the nav tabs are clicked to keep from having all information on the opening browser
 function NavTabs({ currentPage, handlePageChange }) {
     return (
       <nav style={styles.navbarStyle} className="navbar">

@@ -1,19 +1,29 @@
-import React from 'react';
+import React from "react";
 import '../../styles/Contact.css';
 
-export default function Contact() {
-    return (
-      <div>
-        <h1>My Contact Info</h1>
-        <ul>
-            <li>📧: <a href="#">sandora375@outlook.com</a></li>
-            <li>Github: <a href="https://github.com/code587">@My github</a>
-            </li>
-            <li>LinkedIn: <a href="https://linkedin.com/in/stephanie-sanders-97356b205">@LinkedIn</a></li>
-            <li>Phone: 323-842-4522</li>
-            </ul>
-      </div>
-    );
-  }
-  
-  
+const ContactForm = () => {
+return (
+  <form className="formcontainer">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" className="name" required />
+    </div>
+    <br></br>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" className="email" required />
+    </div>
+    <br></br>
+    <div>
+      <label for="message">Message:</label>
+      <textarea className="memo" required />
+    </div>
+    <br></br>
+      <button className="btn" type="submit">Send</button>
+  </form>
+  );
+
+
+};
+
+export default ContactForm

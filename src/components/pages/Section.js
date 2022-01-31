@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/Section.css';
   
+//allows for styling on one page if wanted
 const styles = {
     sectionStyles: {
       fontSize: '20px',

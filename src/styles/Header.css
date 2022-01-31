@@ -26,14 +26,14 @@
     color: red;
     font-style: italic;
     display: inline-flex;
-    margin-left:200px;
+    margin-left: 270px;
     transform: translateY(-100px);
   }
   .header h3 {
     text-align: left;
     font-size: 25px;
     line-height: 0rem;
-    margin-left: 340px;
+    margin-left: 500px;
     color: white;
     transform: translateY(-90px);
   }

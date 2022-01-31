@@ -1,8 +1,44 @@
-h1 {
-    font-size: 25px;
-    padding-top: 25px;
-}
-ul {
-    margin-left: 20px;
-    
-}
+form {
+    box-sizing: content-box;
+    padding: 6rem;
+    border-radius: 5rem;
+    border-width: 300px;
+    background-color: grey;
+    border: 4px dashed red;
+    display: inline-flexbox ;
+    grid-template-columns: min-content ;
+    gap: 5rem;
+    height: 170px;
+    justify-content: center;
+    margin: 30px 60px 50px 80px
+  }
+
+  .btn {
+      margin-left: 90px;
+      width: 70px;
+      background-color: limegreen;
+      font-weight: bold;
+      height:40px;
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* style
+    {
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .btn {
+        margin-left: 60px;
+    } */

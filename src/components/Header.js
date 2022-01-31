@@ -13,8 +13,8 @@ const styles = {
     <header style={styles.headerStyle} className="header">
         <div className='picContainer'>
           <img className="pic" src={profilePic} alt= 'profile avatar'/>
-          <h1 style={styles.headingStyle}>Stephanie Sanders</h1>
-        <h3>Nice to meet you. THIS IS ME!</h3>
+          <h1 style={styles.headingStyle}>I am Stephanie Sanders</h1>
+        <h3>Nice to meet you.</h3>
         </div>
     </header>
     );
