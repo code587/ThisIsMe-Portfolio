@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Header.css';
-import profilePic from '../components/Images/profile-pic.jpeg';
+import profilePic from '../Images/profile-pic.jpeg';
 
 const styles = {
     headingStyle: {

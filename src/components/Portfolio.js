@@ -1,12 +1,12 @@
 //importing all of the images 
 import React from 'react';
-import coupledining from 'src/Images/coupledining.jpeg';
-import notepad from 'src/Images/notepad.jpeg';
-import companyteam from '.srcImagescompanyteam.jpeg';
-import quiz from 'src/Images/quiz.jpeg';
-import readme from 'src/Images/readme.jpeg';
-import ecomm from 'src/Images/ecomm.jpeg';
-import '../../styles/Portfolio.css';
+import coupledining from '../Images/coupledining.jpeg';
+import notepad from '../Images/notepad.jpeg';
+import companyteam from '../Images/companyteam.jpeg';
+import quiz from '../Images/quiz.jpeg';
+import readme from '../Images/readme.jpeg';
+import ecomm from '../Images/ecomm.jpeg';
+import '../styles/Portfolio.css';
 
 
 function Portfolio() {
