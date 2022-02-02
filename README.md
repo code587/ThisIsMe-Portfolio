@@ -15,7 +15,11 @@ Bulma
 The portfolio has a navbar from Bulma with four clickable navlinks to each page of the portfolio.  When navlink is clicked it will highlight and show the page picked. The contact form allows text to write a message to the potential employee.
 
 ## Screenshot
+![code587 github io_ThisIsMe-Portfolio_](https://user-images.githubusercontent.com/93016627/152210308-4e6fbe30-b7be-4e4f-baca-595bd37f2460.png)
 
 ## Links
+https://github.com/code587/ThisIsMe-Portfolio
+
+https://code587.github.io/ThisIsMe-Portfolio/
 
 The author can be reached at https://github.com/code587 and sandora375@outlook.com.
