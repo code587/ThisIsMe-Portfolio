@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/thisisme-portfolio/static/css/main.5da376bb.css",
-    "main.js": "/thisisme-portfolio/static/js/main.3172442a.js",
-    "static/js/787.f0cdcf48.chunk.js": "/thisisme-portfolio/static/js/787.f0cdcf48.chunk.js",
-    "static/media/notepad.jpeg": "/thisisme-portfolio/static/media/notepad.a796c3bb66640c3f6bb1.jpeg",
-    "static/media/coupledining.jpeg": "/thisisme-portfolio/static/media/coupledining.bc4c8079c624871ddaca.jpeg",
-    "static/media/quiz.jpeg": "/thisisme-portfolio/static/media/quiz.c055302628ed11a62f46.jpeg",
-    "index.html": "/thisisme-portfolio/index.html",
-    "main.5da376bb.css.map": "/thisisme-portfolio/static/css/main.5da376bb.css.map",
-    "main.3172442a.js.map": "/thisisme-portfolio/static/js/main.3172442a.js.map",
-    "787.f0cdcf48.chunk.js.map": "/thisisme-portfolio/static/js/787.f0cdcf48.chunk.js.map"
+    "main.css": "/ThisIsMe-Portfolio/static/css/main.5da376bb.css",
+    "main.js": "/ThisIsMe-Portfolio/static/js/main.c824b112.js",
+    "static/js/787.f0cdcf48.chunk.js": "/ThisIsMe-Portfolio/static/js/787.f0cdcf48.chunk.js",
+    "static/media/notepad.jpeg": "/ThisIsMe-Portfolio/static/media/notepad.a796c3bb66640c3f6bb1.jpeg",
+    "static/media/coupledining.jpeg": "/ThisIsMe-Portfolio/static/media/coupledining.bc4c8079c624871ddaca.jpeg",
+    "static/media/quiz.jpeg": "/ThisIsMe-Portfolio/static/media/quiz.c055302628ed11a62f46.jpeg",
+    "index.html": "/ThisIsMe-Portfolio/index.html",
+    "main.5da376bb.css.map": "/ThisIsMe-Portfolio/static/css/main.5da376bb.css.map",
+    "main.c824b112.js.map": "/ThisIsMe-Portfolio/static/js/main.c824b112.js.map",
+    "787.f0cdcf48.chunk.js.map": "/ThisIsMe-Portfolio/static/js/787.f0cdcf48.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5da376bb.css",
-    "static/js/main.3172442a.js"
+    "static/js/main.c824b112.js"
   ]
 }
