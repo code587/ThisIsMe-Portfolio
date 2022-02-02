@@ -1,10 +1,7 @@
 .navbar {
-    /* background: linear-gradient(to bottom, #cc6699 0%, #33cc33 100%); */
     background: black;
     height: 10px;
     font-weight: 500;
-   
-    
   }
   
   .navbar a {
@@ -13,6 +10,7 @@
     margin: 5px;
     margin-top: 0px;    
     margin-left: 50px;
+    
     
   }
   .navbar a:hover {

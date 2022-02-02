@@ -18,8 +18,7 @@ return (
       <label for="message">Message:</label>
       <textarea className="memo" required />
     </div>
-    <br></br>
-      <button className="btn" type="submit">Send</button>
+      <button className="" type="submit">Send</button>
   </form>
   );
 

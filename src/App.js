@@ -15,8 +15,6 @@ function App() {
     <main>
       <Header />
       <NavContainer />
-      {/* <Navbar />
-      <Section /> */}
       <Footer />
     </main>
   );

@@ -8,7 +8,7 @@ function Resume() {
     <div>
         <h1>Resume</h1>
         <h5 className='skillscontainer'>Front End Proficiences</h5>
-            <ul>
+            <ul className='proficiencies'>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>
